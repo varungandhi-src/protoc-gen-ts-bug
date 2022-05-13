@@ -1,0 +1,6 @@
+# Configuration file for https://buf.build/, which we use for Protobuf code generation.
+version: v1
+plugins:
+  - name: ts
+    path: ./node_modules/.bin/protoc-gen-ts
+    out: .
